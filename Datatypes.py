@@ -1,4 +1,4 @@
-#Variables in Python 
+# Variables in Python 
 # 1. Data -> a program contain data (in every Programming Language)
 # 2. Instructions -> a program contain set of instruction (in every Programming Language)
 
@@ -50,7 +50,7 @@
 
 # 4. Dictionary -> dict(key, value ) -> name : 'Dhruvin'
 
-#int and float data types
+# int and float data types
 
 # x = 1234567898765434556677
 # print(x.__sizeof__())
@@ -58,7 +58,7 @@
 # x = 1245E-2 --> 12.45--> 1245 * 10^2
 # print(x)
 
-#Bool and Complex Datatypes
+# Bool and Complex Datatypes
 
 # a = True
 # print(type(a))
@@ -78,7 +78,7 @@
 # a = complex(12_3.45 + 67_89.87j)
 # print(a)
 
-#Number system -> decimal, 0b101 binary (0-1), 0o10 octal (0-7), 0xA hexadecimal (0-15 (0-F))
+# Number system -> decimal, 0b101 binary (0-1), 0o10 octal (0-7), 0xA hexadecimal (0-15 (0-F))
 
 # a = 0b101
 # b = 0o5
@@ -94,7 +94,6 @@
 # print(oct(a))
 # print(hex(a))
 # print(bin(16))
-
 # print(oct(20))
 
 
