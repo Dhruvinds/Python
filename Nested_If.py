@@ -35,7 +35,7 @@
 
 # elif john > ds and john > smith :
 #     print("John's Age is Greater", john)
-# elelif smith > ds :
+# elif smith > ds :
 #     print("Smith's Age is Greater", smith)
 # else :
 #     print("DS's Age is Greater", ds)
