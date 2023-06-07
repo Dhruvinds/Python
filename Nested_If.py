@@ -1,9 +1,11 @@
+# if (5<2):
+#     print("The Conditions are false!")
 # elif(5>2):
 #     print("The First Statement is True!")
-#     elif(3>2):
-#         print("The First.First Value is True!")
-#     elif(4>2):
-#         print("The First.Second Value is True!")
+# elif(3>2):
+#     print("The First.First Value is True!")
+# elif(4>2):
+#     print("The First.Second Value is True!")
 # elif(6>2):
 #     print("The Second Statement Value is True!")
 
