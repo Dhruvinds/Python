@@ -5,7 +5,7 @@
 # c = 100
 # d = 200
 
-# print(a>b and a>c)
+# print(a>b and a>c) 1 * 1
 # print(a>b and a<c)
 # print(a<b and a>c)
 # print(a<b and a<c)
@@ -20,7 +20,7 @@
 # c = 100
 # d = 200
 
-# print(a>b or a>c)
+# print(a>b or a>c) 1 + 1
 # print(a>b or a<c)
 # print(a<b or a>c)
 # print(a<b or a<c)
