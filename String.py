@@ -253,3 +253,119 @@
 # s1 = "aaa\nbbb\tccc\rddd\feee"
 # print(s1.splitlines())
 # print(s1.splitlines(keepends=True))
+
+#Ch:- 1 Sorting Letter of a string
+# str1 = "bghiamporcd"
+# r1 = sorted(str1)
+# print(r1)
+
+# str2 = ','.join(r1)
+# print(str2)
+
+#Challenge:-2 Displaying Data
+# pro_name = input("Enter a Product Name:- ")
+# price = input("Enter a price:- ")
+
+# total_leng = (len(pro_name) + len(price))
+# print(total_leng)
+
+# dots = '.' * (25 - total_leng)
+# print(pro_name+dots+price)
+
+#Challenge:- 3 Confirming Password
+
+# pass1 = input("Enter a password:- ")
+# pass2 = input("Enter a confirm password:- ")
+
+# if pass1 == pass2 :
+#     print("Yes, Your password is matching!")
+# else :
+#     if pass1.casefold() == pass2.casefold() :
+#         print("Please, check your cases and type again your password")
+#     else :
+#         print("No, They are not matching try again")
+
+# Challenge 4 :- Display Credit Card Number
+
+# card_no = input("Enter a Card Number: ")
+# # 1234 1234 1234 1234
+# # **** **** **** 1234
+# last_digits = card_no[15: :]
+
+# four_star = "*" *4 + " "
+# dis_digits = four_star * 3 + last_digits
+# print(dis_digits)
+
+#Challenge 5:- Find Domain name and Email
+# email = input("Enter a Email:- ")
+# atrate = email.find('@')
+# print(atrate)
+
+# print("UserId:-", email[:atrate])
+# print("Domain Name:-", email[atrate+1:])
+
+# Challenge 6 :- Converting String to Palindrome
+# str1 = input("Enter a String:- ")
+# rev = str1[::-1]
+
+# if str1 == rev :
+#     print("It's a Palindrome")
+# else :
+#     print("No, It's not")
+
+#Converting string into palindrome
+
+# str1 = input("Enter a string:- ")
+# rev = str1[::-1]
+# print(str1+rev)
+
+# Challenge 7 :- Find Day Month and Year
+#DD/MM/YY --> 03/08/2000 
+
+# myDate = input("Enter a Date in DD/MM/YYYY: ")
+
+# l = myDate.split("/")
+
+# print("Day:-", l[0])
+# print("Month:-", l[1])
+# print("Year:-", l[2])
+
+# Challenge 8 :- Checking if two strings are anagram or not
+
+# str1 = input("Enter a String1:- ")
+# str2 = input("Enter a String2:- ")
+
+# if len(str1) != len(str2) :
+#     print("Not Anagram!")
+# else :
+#     for x in str1 :
+#         if x not in str2 :
+#             print("No Anagram!")
+#             break;
+#     else :
+#         print("Anagram!")
+
+# Challenge 9 :- Rearranging a string
+# str1 = input("Enter a String")
+# lower = ''
+# upper = ''
+
+# for x in str1 :
+#     if x.islower():
+#         lower += x
+#     else :
+#         upper += x
+
+# str2 = lower + upper
+# print(str2)
+
+# Challenge 10 :- Removing Punctuations
+# punct = '''!@#$%^&*()<>,.?/:";'{}[]_-+='''
+# str1 = input("Enter a String:- ")
+# str2 = ''
+
+# for x in str1 :
+#     if x not in punct :
+#         str2 += x
+
+# print(str2)
