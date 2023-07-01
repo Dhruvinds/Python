@@ -207,3 +207,49 @@
 # s1 = "4\u00b2"
 # print(s1.isnumeric())
 
+# String Methods Start with and End With
+# s1 = "Python is very easy"
+# print(s1.startswith("Python"))
+# print(s1.startswith("is",7,9))
+
+# print(s1.endswith("easy"))
+# print(s1.endswith("is",0,9))
+
+# s1 = "Python Programming"
+# print(s1.removeprefix('Py'))
+# print(s1.removeprefix('Java')) -> If there is no letter which is same in variable then it will not change it.
+
+# print(s1.removesuffix("ing"))
+
+# s1 = "Python is very easy"
+# print(s1.partition("Pyth"))
+# print(s1.partition("is"))
+
+# print(s1.rpartition("s"))
+# print(s1.rpartition("is"))
+
+#Joining and Spliting
+# s1 = "Python programming is very easy"
+# print(s1.replace('easy','awesome'))
+# print(s1.replace(' ',','))
+
+# s1 = "XYZ"
+# s2 = "ABC"
+# print(s1.join(s2))
+
+# list = ["Canada", "USA", "Germany", "Australia"]
+# s1 = "-"
+# print(s1.join(list))
+
+# s1 = "John, Smith, Virat"
+# print(s1.split())
+# print(s1.split(",",1))
+
+# s1 = "John-Smith-Head-Broad"
+# print(s1.split("-"))
+# print(s1.rsplit('-'))
+# print(s1.rsplit('-',2))
+
+# s1 = "aaa\nbbb\tccc\rddd\feee"
+# print(s1.splitlines())
+# print(s1.splitlines(keepends=True))
