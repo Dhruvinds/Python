@@ -167,3 +167,43 @@
 # print(s1.lower() == s2.lower())
 # print(s1.casefold() == s2.casefold())
 
+# String Inquiry Methods
+# The method starts with the is keyword that means that gives the boolean results
+
+# s1 = "How Are You!"
+# print(s1.istitle())
+# print(s1.islower())
+# print(s1.isupper())
+
+# s1 = "Dhruvin6464"
+# print(s1.isalnum())
+# print(s1.isalpha())
+# print(s1.isspace())
+# print(s1.isascii())
+
+# s1 = "1length"
+# s2 = "length1"
+# s3 = "length-@3"
+# s4 = "if"
+# print(s1.isidentifier())
+# print(s2.isidentifier())
+# print(s3.isidentifier())
+# print(s4.isidentifier())
+
+# s1 = "Hello how are you!"
+# s2 = "Hello \n how are you!"
+# s3 = "\u03b1\u03b2\u03b3"
+
+# print(s1.isprintable())
+# print(s2.isprintable())
+# print(s3.isprintable())
+
+# s1 = "123"
+# print(s1.isdecimal())
+
+# s1 = "8\u00b2"
+# print(s1.isdigit())
+
+# s1 = "4\u00b2"
+# print(s1.isnumeric())
+
