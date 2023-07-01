@@ -95,3 +95,75 @@
 # s3 = s1 > s2
 # print(s3)
 
+# print(dir(str)) --> Methods of String
+# Introduction To String Method
+
+# Class - Definition/Design  and Object (It's Instance) String is an object
+
+# Design of a car -> car is an Object and design is a class
+
+# Class contain data and operation/functions --> len(s) -> Contain data and do operation on functions so it means we call it methods
+
+# s1 = "Hello, How are you!!"
+# print(type(s1))
+
+# print(help(s1.endswith)) -> Check of the methods
+
+# Find and Index Methods
+# s1 = "Hello, How Are You"
+# print(s1.find('o'))
+# print(s1.find('How'))
+# print(s1.find('K'))
+# print(s1.find('o',5))
+# print(s1.find('o',5,8))
+# print(s1.find('o',9,17))
+
+#rfind method
+# print(s1.rfind('o'))
+# print(s1.rfind('o',0,7))
+# print(s1.rfind('Canada'))
+
+#Index Method
+# print(s1.index('o'))-> it finds only indexing, and if not there any letter the index gives an error
+
+#rindex
+# print(s1.rindex('Are'))
+
+#Count 
+# print(s1.count('o'))
+# print(s1.count('l'))
+
+# s1 = "Python"
+# Removing Spaces
+# print(s1.ljust(10))
+# print(s1.rjust(10))
+# print(s1.center(10))
+# print(s1.center(20,'@'))
+
+# s1 = "    Python   "
+# print(s1.strip())
+# print(s1.lstrip())
+# print(s1.rstrip())
+
+# Methods of cases
+# s1 = "hello Dear!"
+# s2 = 'hello Dear How are you!'
+# print(s1.capitalize())
+# print(s2.lower())
+# print(s2.upper())
+# print(s2.swapcase())
+# print(s2.title())
+# print(s2.casefold())
+
+# s1 = 'heLLo'
+# s2 = 'HELLO'
+# print(s1.lower() == s2.lower())
+
+# s1 = 'Bu\u00DF' --> "Buss"
+# print(s1)
+
+# s2 = "Buss"
+# print(s1 == s2)
+# print(s1.lower() == s2.lower())
+# print(s1.casefold() == s2.casefold())
+
