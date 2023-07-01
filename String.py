@@ -78,3 +78,20 @@
 #6 NOT IN
 # s3 = "H" not in s1
 # print(s3)
+
+# Relational Operators in Strings
+#Comparing String
+#1 The string matched which letter will come in dictionary the letter come first it is smaller and the come after it is bigger!
+
+#2. The capital letter is smaller and the smaller letter is bigger
+
+# s1 = "Alaska"
+# s2 = "Canada"
+# s3 = s1 < s2
+# print(s3)
+
+# s1 = "Canada"
+# s2 = "canada"
+# s3 = s1 > s2
+# print(s3)
+
