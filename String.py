@@ -65,7 +65,7 @@
 
 # s1 = "Hello World"
 
-# print(s1[0:12:1])
+# print(s1[0:11:1])
 # print(s1[::1])
 # print(s1[0:len(s1):1])
 # print(s1[-1:-len(s1)-1:-1])
