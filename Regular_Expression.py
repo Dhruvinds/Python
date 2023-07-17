@@ -1,6 +1,6 @@
 #Regular expression is usefull for defining patterns and string matching.
 
-from re import *
+# from re import *
 
 # print(match('a', 'a').group())
 # print(match('a|b', 'a').group())
@@ -28,3 +28,11 @@ from re import *
 # c = compile(x)
 # r = c.search("Hello World")
 # print(r.group())
+
+# import re
+# str = 'bob.com'
+# match = re.search(r'[\w.-]+@[\w.-]+', str)
+# if match:
+#     print(match.group())
+# else :
+#     print('the email is not valid')
